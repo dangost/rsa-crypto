@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rsa-crypto"
+version = "0.1.0"
+description = ""
+authors = ["Dan Gost <dangost16@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rsa_crypto"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycryptodome = "^3.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
