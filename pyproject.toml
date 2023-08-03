@@ -9,6 +9,10 @@ packages = [{include = "rsa_crypto"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pycryptodome = "^3.18.0"
+pyjwt = "^2.8.0"
+web3 = "^6.7.0"
+bitcoinlib = "^0.6.11"
+tronpy = "^0.4.0"
 
 
 [build-system]
