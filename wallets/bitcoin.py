@@ -17,5 +17,6 @@ def init_wallet(private_key: bytes) -> Wallet:
 
 
 if __name__ == "__main__":
+    # init
     wallet = create_wallet()
     print(wallet)
